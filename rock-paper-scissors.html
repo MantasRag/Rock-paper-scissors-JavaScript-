@@ -1,0 +1,17 @@
+<html>
+    <head>
+        <meta charset="UTF-8">
+    </head>
+    <body>
+        <script>
+            function getComputerChoice() {
+                const choices = ['rock', 'paper', 'scissors'];
+                const index = Math.floor(Math.random() * choices.length); //Math.random = [0; 1] * 3
+                return choices[index];
+            }
+            console.log(getComputerChoice());
+            console.log(getComputerChoice());
+            console.log(getComputerChoice());
+        </script>
+    </body>
+</html>
