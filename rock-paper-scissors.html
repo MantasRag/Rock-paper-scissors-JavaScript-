@@ -10,8 +10,12 @@
                 return choices[index];
             }
             console.log(getComputerChoice());
-            console.log(getComputerChoice());
-            console.log(getComputerChoice());
+
+            function getHumanChoice() {
+                const choice = prompt("Enter rock, paper, or scissors:");
+                return choice.toLowerCase();
+            }
+            console.log(getHumanChoice());
         </script>
     </body>
 </html>
